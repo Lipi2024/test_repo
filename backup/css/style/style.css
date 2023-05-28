@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+   
+    width: 100% !important;
+
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color:#482a64;
+    
+}
+.navigation ul li{
+    float: left;
+    
+    
+
+}
+.navigation ul li a{
+    padding: 16px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+.navigation ul li a:hover{
+    text-decoration: none;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.banner_image{
+    background-image: url(../img/flowers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.howthis_work{
+    width: 100%;
+    text-align: center;
+}
+.works_element ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.works_element ul li{
+    background-image: linear-gradient(#14e3f5, #02929e);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 30px;
+    margin: auto;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+}
+.works_element ul li h3{
+    text-align: center;
+    margin-top: 40%;
+
+    
+}
